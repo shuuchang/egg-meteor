@@ -46,10 +46,11 @@ egg.js是由阿里对node.js进一步封装形成的框架，继承并优化了n
 ### [mysql_fdw安装部署](https://www.cnblogs.com/ctypyb2002/p/9793125.html)
 ### [MariaDB集群安装部署](https://www.cnblogs.com/oneapm/p/4617637.html)
 ### node.js安装
-curl -sL https://rpm.nodesource.com/setup_10.x | bash -
-yum install -y nodejs
-node -v
-npm -v
+$ curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+$ yum install -y nodejs
+$ node -v
+$ npm -v
+
 ### egg.js安装（[eggjs](https://eggjs.org/zh-cn/intro/quickstart.html)）
 $ npm i egg-init -g
 $ egg-init egg-example --type=simple
