@@ -22,13 +22,13 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
-config.cluster = {
-    listen: {
-      path: '',
-      port: 80,
-      hostname: '0.0.0.0',
-    }
- };
+  config.cluster = {
+      listen: {
+        path: '',
+        port: 80,
+        hostname: '0.0.0.0',
+      }
+  };
   return {
     ...config,
     ...userConfig,
